@@ -1,0 +1,10 @@
+# Docker 시스템 파일
+../docker/
+../nginx/
+../my-web/
+
+# 일반적으로 무시해야 할 항목
+*.log
+*.pyc
+__pycache__/
+.env
