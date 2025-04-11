@@ -17,10 +17,10 @@ jobs:
       - name: Set up Docker Compose
         run: |
           sudo apt-get update
-          sudo apt-get install -y docker-Compose
+          sudo apt-get install -y docker-compose
           
       - name: Build and start containers
-        run: docker-compose up -d --Build
+        run: docker-compose up -d --build
         
       - name: Wait for app to be ready
         run: sleep 10
